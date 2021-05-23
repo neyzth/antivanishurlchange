@@ -1,0 +1,30 @@
+{
+  "name": "antivanishurlchange",
+  "version": "1.0.0",
+  "description": "Un script discord.js pour empêcher un administrateur de changer le custom url",
+  "main": "app.js",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neyzth/antivanishurlchange.git"
+  },
+  "keywords": [
+    "discord.js",
+    "antiraid",
+    "vanishurl",
+    "url"
+  ],
+  "author": "NeyZth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neyzth/antivanishurlchange/issues"
+  },
+  "homepage": "https://github.com/neyzth/antivanishurlchange#readme"
+}
