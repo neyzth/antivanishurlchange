@@ -9,8 +9,8 @@ client.login("token de bot ici")
 client.on("guildUpdate", async (oldGuild, newGuild) => {
     if(oldGuild.vanityURLCode === newGuild.vanityURLCode) return;
 
-    if (!channel.guild.me.permissions.has("VIEW_AUDIT_LOG")) return;
-    const fetchGuildAuditLogs = await channel.guild.fetchAuditLogs({
+    if (!oldGuild.me.permissions.has("VIEW_AUDIT_LOG")) return;
+    const fetchGuildAuditLogs = await oldGuild.fetchAuditLogs({
         limit: 1,
         type: 'GUILD_UPDATE'
     })
